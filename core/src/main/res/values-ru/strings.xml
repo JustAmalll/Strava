@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Strava</string>
+
+    <string name="boarding_card_title_one">Добро пожаловать в Восхождение</string>
+    <string name="boarding_card_desc_one">Здесь вы можете следить за своим весом и активностью</string>
+    <string name="boarding_card_title_two">Друзья</string>
+    <string name="boarding_card_desc_two">Заполните поля активность и вес, а затем поделитесь информацией со своими друзьями</string>
+    <string name="boarding_card_title_tree">Активности</string>
+    <string name="boarding_card_desc_tree">Удобная система отслеживания веса и активности-заполните свой профиль и начните жить ярко</string>
+    <string name="boarding_button_skip">Далее</string>
+    <string name="boarding_button_okay">Готово</string>
+
+    <string name="auth_button_text">Продолжить в Strava</string>
+    <string name="auth_already">Участник сообщества</string>
+    <string name="main_exit">Выйти</string>
+
+    <string name="activities_add_title">Создать активность</string>
+    <string name="activities_add_type">Тип</string>
+    <string name="activities_add_name">Название</string>
+    <string name="activities_add_time">Время, минуты</string>
+    <string name="activities_add_distance">Дистанция, метры</string>
+    <string name="activities_add_description">Описание</string>
+    <string name="activities_add_date">Дата</string>
+    <string name="activities_add_button_text">Добавить</string>
+
+    <string name="bottom_sheet_text">Вы уверены, что хотите выйти из системы? Все локальные данные будут удалены.</string>
+    <string name="retry">Повторить</string>
+
+    <string name="title_notification">Пора бегать</string>
+    <string name="description_notification">Strava напоминает о важности движения в жизни</string>
+
+    <string name="add_activities_error_name">Введите название активности</string>
+    <string name="add_activities_error_type">Выберите тип активности</string>
+    <string name="add_activities_error_date">Выберите дату</string>
+    <string name="add_activities_error_time">Введите время</string>
+    <string name="add_activities_error_dist">Введите дистанцию в (м)</string>
+    <string name="add_activities_error_minutes">Введите время забега в минутах</string>
+    <string name="add_activities_error_dist_metr">Введите дистанцию в метрах</string>
+    <string name="add_activities_error_date_choose">Выберите дату забега</string>
+    <string name="add_activities_error_choose_time">Выберите время начала забега</string>
+
+    <string name="contact_allow_permission">Разрешите Ascent использовать ваши контакты</string>
+    <string name="contact_permission_button_text">Разрешить</string>
+
+    <string name="profile_followers">Подписки</string>
+    <string name="profile_following">Подписчики</string>
+    <string name="profile_share">Поделиться</string>
+    <string name="profile_county">Город</string>
+    <string name="profile_weight_edit">Вес (изменить)</string>
+    <string name="profile_gender">Пол</string>
+    <string name="profile_button_logout">Выйти</string>
+
+    <string name="item_runner_time">Время</string>
+    <string name="item_runner_elevation_gain">Высота подъема</string>
+    <string name="item_runner_distance">Дистанция</string>
+</resources>

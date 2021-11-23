@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorCache">#D84910</color>
+    <color name="colorError">#F03D3E</color>
+
+    <color name="black">#B0000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_next">#887ADE</color>
+    <color name="color_dot_indicator_selected">#5E48E8</color>
+    <color name="color_dot_indicator">#C4C4C4</color>
+
+    <color name="light_gray">#E1E1E1</color>
+    <color name="dark_gray">#252525</color>
+    <color name="purple">#5E48E8</color>
+    <color name="purple_dark">#0e1cb5</color>
+    <color name="gray">#B5B5B5</color>
+    <color name="so_light_gray">#E1E1E1</color>
+    <color name="light_purple">#887ADE</color>
+
+    <color name="orange">#FFFC4D03</color>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activities"
+    app:startDestination="@id/activitiesFragment">
+
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.skillbox.strava.ui.fragment.activities.ActivitiesFragment"
+        android:label="ActivitiesFragment"
+        tools:layout="@layout/fragment_activities">
+        <action
+            android:id="@+id/action_activitiesFragment_to_addActivitiesFragment"
+            app:destination="@id/addActivitiesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addActivitiesFragment"
+        android:name="com.skillbox.strava.ui.fragment.addActivities.AddActivitiesFragment"
+        android:label="AddActivitiesFragment"
+        tools:layout="@layout/fragment_add_activities" />
+
+</navigation>

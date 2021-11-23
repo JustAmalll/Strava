@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Strava</string>
+
+    <string name="boarding_card_title_one">Welcome to Ascent</string>
+    <string name="boarding_card_desc_one">Here you can monitor your weight and activities</string>
+    <string name="boarding_card_title_two">Friends</string>
+    <string name="boarding_card_desc_two">Fill in the activity and weight fields, and then share the information with your friends</string>
+    <string name="boarding_card_title_tree">Activities</string>
+    <string name="boarding_card_desc_tree">Convenient weight and activity tracking system-fill out your profile and start living brightly</string>
+    <string name="boarding_button_skip">Skip</string>
+    <string name="boarding_button_okay">Okay</string>
+
+    <string name="auth_button_text">Continue with Strava</string>
+    <string name="auth_already">ALREADY A MEMBER</string>
+    <string name="main_exit">Выйти</string>
+
+    <string name="activities_add_title">Create a new activities</string>
+    <string name="activities_add_type">Type</string>
+    <string name="activities_add_name">Name</string>
+    <string name="activities_add_time">Time, minutes</string>
+    <string name="activities_add_distance">Distance, meter</string>
+    <string name="activities_add_description">Description</string>
+    <string name="activities_add_date">Date</string>
+    <string name="activities_add_button_text">Add</string>
+
+    <string name="bottom_sheet_text">Are you sure you want to logout? All local data will be deleted.</string>
+    <string name="retry">Retry</string>
+
+    <string name="title_notification">It time to run</string>
+    <string name="description_notification">Strava reminds of the importance of movement in life</string>
+
+    <string name="add_activities_error_name">Enter the name of the activity</string>
+    <string name="add_activities_error_type">Select the activity type</string>
+    <string name="add_activities_error_date">Write date</string>
+    <string name="add_activities_error_time">Write time</string>
+    <string name="add_activities_error_dist">Write distance the meter</string>
+    <string name="add_activities_error_minutes">Enter the race time in minutes</string>
+    <string name="add_activities_error_dist_metr">Enter the distance in meters</string>
+    <string name="add_activities_error_date_choose">Choose date runner</string>
+    <string name="add_activities_error_choose_time">Select the start time of the race</string>
+
+    <string name="contact_allow_permission">Allow Ascent to use your contacts</string>
+    <string name="contact_permission_button_text">Allow</string>
+
+    <string name="profile_followers">Followers</string>
+    <string name="profile_following">Following</string>
+    <string name="profile_share">Share</string>
+    <string name="profile_county">County</string>
+    <string name="profile_weight_edit">Weight (edit)</string>
+    <string name="profile_gender">Gender</string>
+    <string name="profile_button_logout">Logout</string>
+
+    <string name="item_runner_time">Time</string>
+    <string name="item_runner_elevation_gain">Elevation Gain</string>
+    <string name="item_runner_distance">Distance</string>
+</resources>

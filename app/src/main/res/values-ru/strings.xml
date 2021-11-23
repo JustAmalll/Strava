@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_notification_warning">Нотификации отключены</string>
+    <string name="redirect_profile">Профиль пользователя</string>
+    <string name="activities_title_app">Активности</string>
+    <string name="contact_title_app">Поделиться</string>
+    <string name="profile_title_app">Профиль</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="county_not_selected">Страна не выбрана</string>
+    <string name="gender_not_selected">Не выбран</string>
+</resources>

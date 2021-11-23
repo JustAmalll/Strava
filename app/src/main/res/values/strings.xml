@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_notification_warning">Notification disabled</string>
+    <string name="redirect_profile">Profile user</string>
+    <string name="activities_title_app">Activities</string>
+    <string name="contact_title_app">Share</string>
+    <string name="profile_title_app">Profile</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender_not_selected">Not selected</string>
+    <string name="county_not_selected">Country not selected</string>
+</resources>

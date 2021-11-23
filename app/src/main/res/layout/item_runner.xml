@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/runner_ivPhoto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/runner_tvName"
+                style="@style/textColorCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/runner_ivPhoto"
+                app:layout_constraintTop_toTopOf="@+id/runner_ivPhoto"
+                tools:text="Viktoria Ivanova" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toStartOf="@+id/runner_tvName"
+                app:layout_constraintTop_toBottomOf="@+id/runner_tvName">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:src="@drawable/ic_lightning" />
+
+                <TextView
+                    android:id="@+id/runner_tvTimeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:layout_marginStart="3dp"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    tools:text="Today 15:09" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/runner_tvTitle"
+                style="@style/textColorCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/runner_ivPhoto"
+                app:layout_constraintTop_toBottomOf="@+id/runner_ivPhoto"
+                tools:text="Run 1" />
+
+            <TextView
+                android:id="@+id/runner_tvDistance"
+                style="@style/headerProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/item_runner_distance"
+                app:layout_constraintStart_toStartOf="@+id/runner_tvTitle"
+                app:layout_constraintTop_toBottomOf="@+id/runner_tvTitle" />
+
+            <TextView
+                android:id="@+id/runner_tvDistanceValue"
+                style="@style/textColorCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="18dp"
+                android:text="0 km"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/runner_tvDistance"
+                app:layout_constraintTop_toBottomOf="@+id/runner_tvDistance" />
+
+            <TextView
+                android:id="@+id/runner_tvTime"
+                style="@style/headerProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="@string/item_runner_time"
+                app:layout_constraintBottom_toBottomOf="@+id/runner_tvDistance"
+                app:layout_constraintStart_toEndOf="@+id/runner_tvDistance"
+                app:layout_constraintTop_toTopOf="@+id/runner_tvDistance" />
+
+            <TextView
+                android:id="@+id/runner_tvTimeValue"
+                style="@style/textColorCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/runner_tvDistanceValue"
+                app:layout_constraintEnd_toEndOf="@+id/runner_tvTime"
+                app:layout_constraintStart_toStartOf="@+id/runner_tvTime"
+                app:layout_constraintTop_toTopOf="@+id/runner_tvDistanceValue"
+                tools:text="0h" />
+
+            <TextView
+                android:id="@+id/runner_tvElevation"
+                style="@style/headerProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="@string/item_runner_elevation_gain"
+                app:layout_constraintBottom_toBottomOf="@+id/runner_tvTime"
+                app:layout_constraintStart_toEndOf="@+id/runner_tvTime"
+                app:layout_constraintTop_toTopOf="@+id/runner_tvTime" />
+
+            <TextView
+                android:id="@+id/runner_tvElevationValue"
+                style="@style/textColorCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/runner_tvDistanceValue"
+                app:layout_constraintStart_toStartOf="@+id/runner_tvElevation"
+                app:layout_constraintTop_toTopOf="@+id/runner_tvDistanceValue"
+                tools:text="0m" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/runner_ivBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/background_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

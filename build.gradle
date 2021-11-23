@@ -1,0 +1,119 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = "1.5.20-M1"
+    ext.minSdkVersion = 21
+    ext.compileSdkVersion = 30
+    ext.dagger_version = "2.40"
+    ext.dagger_viewmodel_version = "1.0.0-alpha03"
+    ext.hilt_work_version = "1.0.0"
+    ext.ktx_version = "1.3.5"
+    ext.navigation = "1.0.0"
+    ext.lifecycle = "2.3.1"
+    ext.adapterDelegate = "4.3.0"
+    ext.roomVersion = "2.3.0"
+    ext.retrofit = "2.9.0"
+    ext.okhttp = "4.9.1"
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath('com.android.tools.build:gradle:7.0.3')
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31")
+        classpath("com.google.dagger:hilt-android-gradle-plugin:2.40")
+        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5")
+    }
+}
+
+allprojects {
+    afterEvaluate {
+        if (it.hasProperty('android')) {
+            android {
+                compileSdkVersion 31
+                defaultConfig {
+                    minSdkVersion 21
+                    targetSdkVersion 31
+                    versionCode 1
+                    versionName "1.0"
+                }
+
+                kotlinOptions {
+                    jvmTarget = JavaVersion.VERSION_1_8.toString()
+                }
+                androidExtensions {
+                    experimental = true
+                }
+                buildFeatures {
+                    viewBinding true
+                }
+            }
+
+            dependencies {
+                implementation("androidx.core:core-ktx:1.5.0")
+                implementation("androidx.appcompat:appcompat:1.3.0")
+                implementation("com.google.android.material:material:1.4.0")
+                implementation("androidx.constraintlayout:constraintlayout:2.1.1")
+                implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0")
+                implementation("androidx.activity:activity-ktx:1.3.0-beta02")
+
+                //Activity result API
+                implementation("androidx.fragment:fragment:$ktx_version")
+                implementation("androidx.fragment:fragment-ktx:$ktx_version")
+
+                //LifeCycle
+                implementation("androidx.lifecycle:lifecycle-common:$lifecycle")
+                implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle")
+                implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle")
+                implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-alpha02")
+
+                //AdapterDelegates
+                implementation("com.hannesdorfmann:adapterdelegates4-kotlin-dsl:$adapterDelegate")
+                implementation("com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding:$adapterDelegate")
+
+                //Timber
+                implementation("com.jakewharton.timber:timber:4.7.1")
+
+                //Navigation
+                implementation("android.arch.navigation:navigation-fragment-ktx:$navigation")
+                implementation("android.arch.navigation:navigation-fragment:$navigation")
+                implementation("android.arch.navigation:navigation-ui:$navigation")
+                implementation("android.arch.navigation:navigation-ui-ktx:$navigation")
+                implementation("androidx.navigation:navigation-runtime-ktx:$navigation")
+                implementation("androidx.navigation:navigation-common-ktx:$navigation")
+
+                //Room
+                implementation("androidx.room:room-runtime:$roomVersion")
+                implementation("androidx.room:room-ktx:$roomVersion")
+                kapt("androidx.room:room-compiler:$roomVersion")
+
+                //Retrofit
+                implementation("com.squareup.retrofit2:retrofit:$retrofit")
+                implementation("com.squareup.retrofit2:converter-moshi:$retrofit")
+                implementation("com.squareup.retrofit2:converter-gson:$retrofit")
+                //Stetho
+                implementation("com.facebook.stetho:stetho-okhttp3:1.6.0")
+                //Okhttp
+                implementation("com.squareup.okhttp3:okhttp:$okhttp")
+                implementation("com.squareup.okhttp3:logging-interceptor:$okhttp")
+                //AppAuth
+                implementation("net.openid:appauth:0.9.0")
+                //Android Notification DSL (In Development)
+                implementation("com.kirich1409.android-notification-dsl:core:0.1.0")
+                implementation("com.kirich1409.android-notification-dsl:extensions:0.1.0")
+            }
+        }
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
