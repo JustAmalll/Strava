@@ -12,8 +12,8 @@ Implement the following usage scenarios:
 - I want to share my profile with a contact from my notebook.
 - I want to open a link to the profile in the application.
 
-[Original Application](https://play.google.com/store/apps/details?id=com.strava&hl=ru&gl=US )
+[Original Application](https://play.google.com/store/apps/details?id=com.strava&hl=ru&gl=US)
 
 [API](https://developers.strava.com/docs/reference/)
 
-[Terms of Reference.pdf](https://github.skillbox.ru/just_amall/strava/-/blob/master/doc/strava.pdf)
+[Terms of Reference](https://github.com/JustAmalll/Strava/blob/master/doc/strava.pdf)

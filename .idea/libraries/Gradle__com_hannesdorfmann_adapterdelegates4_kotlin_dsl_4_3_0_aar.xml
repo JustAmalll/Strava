@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hannesdorfmann:adapterdelegates4-kotlin-dsl:4.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/16a3a2cdf515024296adb748d9d0d5cf/transformed/jetified-adapterdelegates4-kotlin-dsl-4.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/16a3a2cdf515024296adb748d9d0d5cf/transformed/jetified-adapterdelegates4-kotlin-dsl-4.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/16a3a2cdf515024296adb748d9d0d5cf/transformed/jetified-adapterdelegates4-kotlin-dsl-4.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann/adapterdelegates4-kotlin-dsl/4.3.0/51add9b2ad71c8c662167bedf6d0fcbdaac74337/adapterdelegates4-kotlin-dsl-4.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann/adapterdelegates4-kotlin-dsl/4.3.0/89a9f4120014fae789039ac34e48cce0f8996cc6/adapterdelegates4-kotlin-dsl-4.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

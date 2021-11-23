@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Strava.iml" filepath="$PROJECT_DIR$/.idea/modules/Strava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Strava.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Strava.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Strava.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Strava.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_data/Strava.core_data.iml" filepath="$PROJECT_DIR$/.idea/modules/core_data/Strava.core_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_db/Strava.core_db.iml" filepath="$PROJECT_DIR$/.idea/modules/core_db/Strava.core_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared_model/Strava.shared_model.iml" filepath="$PROJECT_DIR$/.idea/modules/shared_model/Strava.shared_model.iml" />
+    </modules>
+  </component>
+</project>

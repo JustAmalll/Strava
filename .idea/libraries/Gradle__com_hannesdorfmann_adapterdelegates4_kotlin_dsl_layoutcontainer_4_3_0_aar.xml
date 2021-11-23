@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hannesdorfmann:adapterdelegates4-kotlin-dsl-layoutcontainer:4.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bf383edf1173bdeb614e3467c921165b/transformed/jetified-adapterdelegates4-kotlin-dsl-layoutcontainer-4.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf383edf1173bdeb614e3467c921165b/transformed/jetified-adapterdelegates4-kotlin-dsl-layoutcontainer-4.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf383edf1173bdeb614e3467c921165b/transformed/jetified-adapterdelegates4-kotlin-dsl-layoutcontainer-4.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann/adapterdelegates4-kotlin-dsl-layoutcontainer/4.3.0/fdb841c8bc892aec3398dcf071c20756d7ea44c2/adapterdelegates4-kotlin-dsl-layoutcontainer-4.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann/adapterdelegates4-kotlin-dsl-layoutcontainer/4.3.0/8af9c9c2608fc8c9c17c3e56ad3e80b15e8b714a/adapterdelegates4-kotlin-dsl-layoutcontainer-4.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
