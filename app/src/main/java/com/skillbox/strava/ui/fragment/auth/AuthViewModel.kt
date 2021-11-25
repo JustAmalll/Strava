@@ -29,8 +29,7 @@ class AuthViewModel @Inject constructor(
             .appendQueryParameter("response_type", "code")
             .appendQueryParameter("approval_prompt", "auto")
             .appendQueryParameter(
-                "scope",
-                "read,activity:write,activity:read,profile:write,profile:read_all"
+                "scope", "read,activity:write,activity:read,profile:write,profile:read_all"
             )
             .build()
 

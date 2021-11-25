@@ -65,7 +65,6 @@ class BoardingFragment :
 
     private fun navigateAuth() {
         Pref(requireContext(), requireActivity().application).isBoarding = true
-        findNavController()
-            .navigate(R.id.action_boardingFragment_to_authFragment)
+        findNavController().navigate(R.id.action_boardingFragment_to_authFragment)
     }
 }

@@ -26,12 +26,11 @@ class OnboardingFragment : ViewBindingFragment<ItemCardBinding>(ItemCardBinding:
             @StringRes titleRes: Int,
             @StringRes descRes: Int,
             @DrawableRes drawableRes: Int
-        ): OnboardingFragment {
-            return OnboardingFragment().withArguments {
+        ): OnboardingFragment =
+            OnboardingFragment().withArguments {
                 putInt(KEY_TITLE, titleRes)
                 putInt(KEY_DESC, descRes)
                 putInt(KEY_IMAGE, drawableRes)
             }
-        }
     }
 }
